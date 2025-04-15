@@ -30,14 +30,6 @@ export const initialInvoices: Invoice[] = [
   },
   {
     id: 3,
-    client: "Acme Corp",
-    date: "2024-06-05",
-    amount: 1450.0,
-    status: "Paid",
-    items: [{ description: "Consulting", quantity: 10, price: 200.0 }],
-  },
-  {
-    id: 4,
     client: "Stark Industries",
     date: "2024-06-10",
     amount: 3200.5,
@@ -48,24 +40,13 @@ export const initialInvoices: Invoice[] = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     client: "Wayne Enterprises",
     date: "2024-06-15",
     amount: 1800.0,
     status: "Paid",
     items: [
       { description: "Mobile App Development", quantity: 30, price: 60.0 },
-    ],
-  },
-  {
-    id: 6,
-    client: "Cyberdyne Systems",
-    date: "2024-06-20",
-    amount: 4250.25,
-    status: "Unpaid",
-    items: [
-      { description: "AI Integration", quantity: 25, price: 170.0 },
-      { description: "Cloud Services", quantity: 12, price: 150.0 },
     ],
   },
 ];

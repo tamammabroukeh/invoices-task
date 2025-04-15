@@ -22,8 +22,8 @@ export const useInvoiceStore = create<InvoiceStore>()(
         })),
     }),
     {
-      name: "invoice-storage", 
-      storage: createJSONStorage(() => localStorage), 
+      name: "invoice-storage",
+      storage: createJSONStorage(() => localStorage),
     }
   )
 );
